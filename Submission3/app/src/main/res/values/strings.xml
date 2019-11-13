@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Movie Catalogue 2</string>
+    <string name="tab_text_1">Movies</string>
+    <string name="tab_text_2">Tv Show</string>
+    <string name="tab_text_3">Setting</string>
+    <string name="content_tab_home">Welcome Home</string>
+    <string name="content_tab_tv_show">TV SHOW</string>
+    <string name="content_tab_text">This is Tab</string>
+    <string name="image_poster">Image Poster</string>
+    <string name="title_film">Title Film</string>
+    <string name="genre">Genre</string>
+    <string name="star_rating">Star Rating</string>
+    <string name="storyline">Storyline</string>
+    <string name="lorem">Swifty the Arctic Fox (Jeremy Renner) works in the mailroom of the Arctic Blast Delivery Service, but he has much bigger dreams. He yearns to become a Top Dog, the Arctics star husky couriers. To prove he can do it, he commandeers one of the sleds and delivers a mysterious package to a secret location. Once there, he stumbles on a hidden fortress overseen by the nefarious Otto Von Walrus (John Cleese). The blubbery evil genius commands an army of oddly polite puffin henchmen. Swifty discovers Otto Von Walrus villainous plan to drill beneath the snow-packed surface to unleash masses of ancient gas to melt the Arctic and become the worlds supreme ruler. To stop this sinister scheme, Swifty enlists the help of his friends: PB (Alec Baldwin), a neurotic polar bear, Lemmy (James Franco), a scatterbrained albatross, Jade Fox (Heidi Klum), a brainy engineer, Leopold (Omar Sy) and Bertha (Heidi Klum), two conspiracy theorist otters and Magda (Anjelica Huston), his curmudgeonly boss.</string>
+    <string name="time">Time</string>
+    <string name="rating">Rating</string>
+
+
+    <string-array name="title_film">
+        <item>Terminator: Dark Fate</item>
+        <item>The Irishman</item>
+        <item>Harriet</item>
+        <item>Motherless Brooklyn</item>
+        <item>Arctic Justice</item>
+        <item>Inside Game</item>
+        <item>The Portal</item>
+        <item>Joker</item>
+        <item>Maleficent: Mistress of Evil</item>
+        <item>The Addams Family</item>
+    </string-array>
+    <string-array name="poster">
+        <item>https://m.media-amazon.com/images/M/MV5BNzhlYjE5MjMtZDJmYy00MGZmLTgwN2MtZGM0NTk2ZTczNmU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX640_CR0,0,640,999_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0OC00NTQ4LThkOGUtNjY2NjkzMDJiMWMwXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SY1000_CR0,0,682,1000_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNmE1Y2JjMDEtZDAyOC00NjFiLWJlNjAtMjA3MDMzZGUxMDViXkEyXkFqcGdeQXVyMTA2MDQ3MTQ3._V1_SY1000_CR0,0,674,1000_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNzQ0Mjk1YjItNWI1Ny00NWE2LWFlYTAtYjViY2YzMTVlOGVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNTY1OTQyM2YtM2ZjOC00OWQwLTkzM2YtZjAyOGZkYjlhNWFhXkEyXkFqcGdeQXVyMTk5MzE1MTY@._V1_SY1000_SX675_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMmRiNGZmZjYtYzcxOC00NWUwLWJjOGMtMjVhODRhYWFkOWRjXkEyXkFqcGdeQXVyODk2NTA3MDI@._V1_SY1000_CR0,0,685,1000_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BZmZjN2UwYzAtODVjNS00ZjNmLTk5YWEtMjEyNzc5MDIwN2E0XkEyXkFqcGdeQXVyODE5NDk2MjY@._V1_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BZjJiYTExOTAtNWU0Yi00NzJjLTkwOTgtOTU2NWM1ZjJmYWVhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_SX675_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BODBjOTAzZmMtNGJkOC00M2M3LWI1MTctZjZlMzdiODBkMzc0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SY1000_CR0,0,674,1000_AL_.jpg</item>
+    </string-array>
+    <string-array name="story_line">
+        <item>More than two decades have passed since Sarah Connor prevented Judgment Day, changed the future, and re-wrote the fate of the human race. Dani Ramos (Natalia Reyes) is living a simple life in Mexico City with her brother (Diego Boneta) and father when a highly advanced and deadly new Terminator - a Rev-9 (Gabriel Luna) - travels back through time to hunt and kill her. Danis survival depends on her joining forces with two warriors: Grace (Mackenzie Davis), an enhanced super-soldier from the future, and a battle-hardened Sarah Connor (Linda Hamilton). As the Rev-9 ruthlessly destroys everything and everyone in its path on the hunt for Dani, the three are led to a T-800 (Arnold Schwarzenegger) from Sarahs past that may be their last best hope.</item>
+        <item>Frank "The Irishman" Sheeran is a man with a lot on his mind. The former labor union high official and hitman, learned to kill serving in Italy during the Second World War. He now looks back on his life and the hits that defined his mob career, maintaining connections with the Bufalino crime family. In particular, the part he claims to have played in the disappearance of his life-long friend, Jimmy Hoffa, the former president of the International Brotherhood of Teamsters, who mysteriously vanished in late July 1975 at the age of 62.</item>
+        <item>Based on the thrilling and inspirational life of an iconic American freedom fighter, Harriet tells the extraordinary tale of Harriet Tubmans escape from slavery and transformation into one of Americas greatest heroes. Her courage, ingenuity, and tenacity freed hundreds of slaves and changed the course of history.</item>
+        <item>Set against the backdrop of 1950s New York, "Motherless Brooklyn" follows Lionel Essrog (Norton), a lonely private detective afflicted with Tourettes Syndrome, as he ventures to solve his friends murder. Armed only with a few clues and the powerful engine of his obsessive mind, Lionel unravels closely-guarded secrets that hold the fate of the whole city in the balance.</item>
+        <item>Swifty the Arctic Fox (Jeremy Renner) works in the mailroom of the Arctic Blast Delivery Service, but he has much bigger dreams. He yearns to become a Top Dog, the Arctics star husky couriers. To prove he can do it, he commandeers one of the sleds and delivers a mysterious package to a secret location. Once there, he stumbles on a hidden fortress overseen by the nefarious Otto Von Walrus (John Cleese). The blubbery evil genius commands an army of oddly polite puffin henchmen. Swifty discovers Otto Von Walrus villainous plan to drill beneath the snow-packed surface to unleash masses of ancient gas to melt the Arctic and become the worlds supreme ruler. To stop this sinister scheme, Swifty enlists the help of his friends: PB (Alec Baldwin), a neurotic polar bear, Lemmy (James Franco), a scatterbrained albatross, Jade Fox (Heidi Klum), a brainy engineer, Leopold (Omar Sy) and Bertha (Heidi Klum), two conspiracy theorist otters and Magda (Anjelica Huston), his curmudgeonly boss.</item>
+        <item>In 2007, when NBA referee Tim Donaghy (Eric Mabius) got caught betting on games he worked, he said two men associated with the Gambino crime family - a bookie named Baba Battista (Will Sasso) and a drug dealer named Tommy Martino (Scott Wolf) - threatened to kill his family if he didn\'t give them gambling picks. Thats what Donaghy told the FBI, thats what he told 60 Minutes, and thats what he testified in court. But thats not what really happened. Thats not even close. INSIDE GAME is the untold true story of one of the biggest scandals in sports history.</item>
+        <item>What would happen if 7 billion people all meditated? Could it shift the trajectory of our planet? This experiential documentary approach follows six people (and a robot) who transform their lives using stillness and mindfulness, providing inspiration as we embark on the next phase of evolution. Supported by insights from three of the worlds foremost futurists and philosophers, THE PORTAL opens hearts and minds to an exciting vision for humanity transformed and takes them on a mindfulness journey through a tapestry of technology, love, existentialism, human potential, brain hacking, stillness and inner peace</item>
+        <item>Joker centers around an origin of the iconic arch nemesis and is an original, standalone story not seen before on the big screen. Todd Phillips exploration of Arthur Fleck (Joaquin Phoenix), a man disregarded by society, is not only a gritty character study, but also a broader cautionary tale.</item>
+        <item>Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play.</item>
+        <item>An animated version of Charles Addams series of cartoons about a peculiar, ghoulish family.</item>
+    </string-array>
+    <string-array name="rating">
+        <item>6,6</item>
+        <item>8,6</item>
+        <item>5,2</item>
+        <item>7,5</item>
+        <item>-</item>
+        <item>6,6</item>
+        <item>5,5</item>
+        <item>8,8</item>
+        <item>7,0</item>
+        <item>5,9</item>
+    </string-array>
+    <string-array name="time">
+        <item>2h 8m</item>
+        <item>3h 29m</item>
+        <item>2h 5m</item>
+        <item>2h 24m</item>
+        <item>1h 32m</item>
+        <item>1h 37m</item>
+        <item>1h 28m</item>
+        <item>2h 2m</item>
+        <item>1h 59m</item>
+        <item>1h 26m</item>
+    </string-array>
+    <string-array name="genre">
+        <item>Action | Adventure | Sci-Fi</item>
+        <item>Biography | Crime | Drama | History | Thriller</item>
+        <item>Biography | Drama | History</item>
+        <item>Crime | Drama</item>
+        <item>Animation | Adventure | Comedy | Family</item>
+        <item>Drama</item>
+        <item>Documentary</item>
+        <item>Crime | Drama | Thriller</item>
+        <item>Adventure | Family | Fantasy</item>
+        <item>Animation | Comedy | Family | Fantasy | Horror</item>
+    </string-array>
+    <string-array name="year">
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="title_show">
+        <item>Maleficent: Mistress of Evil</item>
+        <item>Joker</item>
+        <item>The Addams Family</item>
+        <item>Zombieland: Double Tap</item>
+        <item>Countdown</item>
+        <item>Black and Blue</item>
+        <item>Gemini Man</item>
+        <item>The Lighthouse</item>
+        <item>The Current War</item>
+        <item>Abominable</item>
+    </string-array>
+    <string-array name="poster_show">
+        <item>https://m.media-amazon.com/images/M/MV5BZjJiYTExOTAtNWU0Yi00NzJjLTkwOTgtOTU2NWM1ZjJmYWVhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_SX675_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BODBjOTAzZmMtNGJkOC00M2M3LWI1MTctZjZlMzdiODBkMzc0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BYjcwNjZhNGYtOGNlNy00NGI3LTlmODMtMGZlMjA3YjA0Njg0XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BYjcxMjM4MjgtNTEwMi00ZmE2LTlhMWUtMzQ4OWFmYmQwM2NlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMmZhZmQ1YjYtMmZkZC00ZTIxLTg5YTctMDczZGJmZTllYjBkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNjI5OTNkMzUtZDYzYy00NWQ5LTg4YzYtZmZjZDI0MGQzNGY2XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BYWIxOWU4OGUtMTY1Ny00YmY3LWFhOTgtNzk3NmExYjUwMTFmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BMTYzY2U0NjctNDJkNS00MmE3LWFiZGQtZjllZTIzYTQ4ODJkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
+    </string-array>
+    <string-array name="story_show">
+        <item>Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play.</item>
+        <item>In Gotham City, mentally-troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: "The Joker".</item>
+        <item>An animated version of Charles Addams\' series of cartoons about a peculiar, ghoulish family.</item>
+        <item>Columbus, Tallahassee, Wichita, and Little Rock move to the American heartland as they face off against evolved zombies, fellow survivors, and the growing pains of the snarky makeshift family.</item>
+        <item>When a nurse downloads an app that claims to predict the moment a person will die, it tells her she only has three days to live. With the clock ticking and a figure haunting her, she must find a way to save her life before time runs out.</item>
+        <item>A rookie New Orleans police officer is forced to balance her identity as a black woman after she witnesses two corrupt cops committing murder.</item>
+        <item>An over-the-hill hitman faces off against a younger clone of himself.</item>
+        <item>The hypnotic and hallucinatory tale of two lighthouse keepers on a remote and mysterious New England island in the 1890s.</item>
+        <item>The dramatic story of the cutthroat race between electricity titans Thomas Edison and George Westinghouse to determine whose electrical system would power the modern world.</item>
+        <item>Three teenagers must help a Yeti return to his family while avoiding a wealthy man and a zoologist who want it for their own needs.</item>
+    </string-array>
+    <string-array name="rating_show">
+        <item>7,0</item>
+        <item>8,8</item>
+        <item>5,9</item>
+        <item>7,2</item>
+        <item>5,3</item>
+        <item>5,5</item>
+        <item>5,7</item>
+        <item>8,3</item>
+        <item>6,4</item>
+        <item>7,1</item>
+    </string-array>
+    <string-array name="time_show">
+        <item>1h 59min</item>
+        <item>2h 2min</item>
+        <item>1h 26min</item>
+        <item>1h 39min</item>
+        <item>1h 30min</item>
+        <item>1h 48min</item>
+        <item>1h 57min</item>
+        <item>1h 49min</item>
+        <item>1h 42min</item>
+        <item>1h 37min</item>
+    </string-array>
+    <string-array name="genre_show">
+        <item>Adventure | Family | Fantasy</item>
+        <item>Crime | Drama | Thriller</item>
+        <item>Animation | Comedy | Family</item>
+        <item>Action | Comedy | Horror </item>
+        <item>Horror | Thriller </item>
+        <item>Action | Crime | Drama</item>
+        <item>Action | Drama | Sci-Fi </item>
+        <item>Drama | Fantasy | Horror </item>
+        <item>Biography | Drama | History</item>
+        <item>Animation | Adventure | Comedy</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_rating">Image Rating</string>
+    <string name="image_time">Image Time</string>
+    <string name="detail_film">Detail Film</string>
+    <string name="icon_star">Icon Star</string>
+    <string name="years">Years</string>
+
+</resources>
