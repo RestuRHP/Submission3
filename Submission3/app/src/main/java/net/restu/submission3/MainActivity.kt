@@ -3,11 +3,9 @@ package net.restu.submission3
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
-import net.restu.submission3.adapter.MoviesAdapter
 import net.restu.submission3.adapter.PagerAdapter
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var adapter: MoviesAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         tabs.setupWithViewPager(view_pager)
 
         supportActionBar?.elevation = 0f
-
     }
 
 

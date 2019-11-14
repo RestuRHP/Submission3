@@ -3,12 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.TvShowsFragment">
+    tools:context=".fragment.TvShow">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tv_movies"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginBottom="8dp"
+        android:background="@color/bg_color"
+        tools:listitem="@layout/item_movie">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>
