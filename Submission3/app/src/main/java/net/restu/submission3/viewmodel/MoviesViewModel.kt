@@ -16,7 +16,7 @@ class MoviesViewModel:ViewModel() {
     }
     val listMovies = MutableLiveData<ArrayList<MoviesItem>>()
 
-    internal fun setMovies(movies: String){
+    internal fun setMovies(movie: String){
         val client = AsyncHttpClient()
         val listItem = ArrayList<MoviesItem>()
         val url = "https://api.themoviedb.org/3/discover/movie?api_key=$API_KEY&language=en-US"
