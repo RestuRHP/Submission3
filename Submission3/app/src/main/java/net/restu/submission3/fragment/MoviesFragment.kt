@@ -44,8 +44,8 @@ class MoviesFragment : Fragment() {
         moviesViewModel.getMovies().observe(this, Observer { moviesItem ->
             if(moviesItem != null){
                 adapter.setData(moviesItem)
-                showLoading(false)
             }
+            showLoading(false)
         })
         moviesViewModel.setMovies()
 

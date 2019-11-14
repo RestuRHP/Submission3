@@ -12,14 +12,14 @@ import org.json.JSONObject
 
 class MoviesViewModel:ViewModel() {
     companion object {
-        private const val API_KEY = "0bc4d12e12cd1880a3493cafe4cdb8e0"
+        private const val ApiKey = "0bc4d12e12cd1880a3493cafe4cdb8e0"
     }
     val listMovies = MutableLiveData<ArrayList<MoviesItem>>()
 
     internal fun setMovies(){
         val client = AsyncHttpClient()
         val listItem = ArrayList<MoviesItem>()
-        val url = "https://api.themoviedb.org/3/discover/movie?api_key=$API_KEY&language=en-US"
+        val url = "https://api.themoviedb.org/3/discover/movie?api_key=$ApiKey&language=en-US"
         client.get(url, object : AsyncHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Array<Header>, responseBody: ByteArray) {
                 try {
