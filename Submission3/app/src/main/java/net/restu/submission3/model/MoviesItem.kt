@@ -1,4 +1,4 @@
-package net.restu.submission3.item
+package net.restu.submission3.model
 
 class MoviesItem {
     var title: String? = null

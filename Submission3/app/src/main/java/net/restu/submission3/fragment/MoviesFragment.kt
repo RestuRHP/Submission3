@@ -11,10 +11,10 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import net.restu.submission3.item.MoviesItem
 
 import net.restu.submission3.R
 import net.restu.submission3.adapter.MoviesAdapter
+import net.restu.submission3.model.MoviesItem
 import net.restu.submission3.viewmodel.MoviesViewModel
 
 /**
@@ -47,6 +47,7 @@ class MoviesFragment : Fragment() {
                 showLoading(false)
             }
         })
+        moviesViewModel.setMovies()
 
         showLoading(true)
         return view

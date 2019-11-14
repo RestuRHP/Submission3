@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_movie.view.*
-import net.restu.submission3.item.MoviesItem
+import net.restu.submission3.model.MoviesItem
 import net.restu.submission3.R
 
 class MoviesAdapter : RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder>() {

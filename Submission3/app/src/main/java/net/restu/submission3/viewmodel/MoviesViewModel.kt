@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 import com.loopj.android.http.AsyncHttpClient
 import com.loopj.android.http.AsyncHttpResponseHandler
 import cz.msebera.android.httpclient.Header
-import net.restu.submission3.item.MoviesItem
+import net.restu.submission3.model.MoviesItem
 import org.json.JSONObject
 
 class MoviesViewModel:ViewModel() {
@@ -16,7 +16,7 @@ class MoviesViewModel:ViewModel() {
     }
     val listMovies = MutableLiveData<ArrayList<MoviesItem>>()
 
-    internal fun setMovies(movie: String){
+    internal fun setMovies(){
         val client = AsyncHttpClient()
         val listItem = ArrayList<MoviesItem>()
         val url = "https://api.themoviedb.org/3/discover/movie?api_key=$API_KEY&language=en-US"
