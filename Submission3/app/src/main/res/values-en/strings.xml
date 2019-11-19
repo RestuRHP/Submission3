@@ -1,0 +1,29 @@
+<resources>
+<string name="app_name">Movie Catalogue 3</string>
+<string name="tab_text_1">Movies</string>
+<string name="tab_text_2">Tv Show</string>
+<string name="content_tab_home">Welcome Home</string>
+<string name="content_tab_tv_show">TV SHOW</string>
+<string name="content_tab_text">This is Tab</string>
+<string name="image_poster">Image Poster</string>
+<string name="title_film">Title Film</string>
+<string name="genre">Genre</string>
+<string name="star_rating">Star Rating</string>
+<string name="storyline">Storyline</string>
+<string name="lorem">Swifty the Arctic Fox (Jeremy Renner) works in the mailroom of the Arctic Blast Delivery Service, but he has much bigger dreams. He yearns to become a Top Dog, the Arctics star husky couriers. To prove he can do it, he commandeers one of the sleds and delivers a mysterious package to a secret location. Once there, he stumbles on a hidden fortress overseen by the nefarious Otto Von Walrus (John Cleese). The blubbery evil genius commands an army of oddly polite puffin henchmen. Swifty discovers Otto Von Walrus villainous plan to drill beneath the snow-packed surface to unleash masses of ancient gas to melt the Arctic and become the worlds supreme ruler. To stop this sinister scheme, Swifty enlists the help of his friends: PB (Alec Baldwin), a neurotic polar bear, Lemmy (James Franco), a scatterbrained albatross, Jade Fox (Heidi Klum), a brainy engineer, Leopold (Omar Sy) and Bertha (Heidi Klum), two conspiracy theorist otters and Magda (Anjelica Huston), his curmudgeonly boss.</string>
+<string name="time">Time</string>
+<string name="rating">Rating</string>
+<string name="language">Language</string>
+
+
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="image_rating">Image Rating</string>
+<string name="image_time">Image Time</string>
+<string name="detail_film">Detail Film</string>
+<string name="icon_star">Icon Star</string>
+<string name="years">Years</string>
+<string name="image_white">Image Black</string>
+<string name="overview">Overview</string>
+    <string name="change_language_settings">Change Language</string>
+
+</resources>

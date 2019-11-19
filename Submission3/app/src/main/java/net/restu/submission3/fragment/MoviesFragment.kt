@@ -22,35 +22,33 @@ import net.restu.submission3.viewmodel.MoviesViewModel
  */
 class MoviesFragment : Fragment() {
 
-    private val list = ArrayList<MoviesItem>()
-    private lateinit var adapter:MoviesAdapter
+    private lateinit var adapter: MoviesAdapter
     private lateinit var progressBar: ProgressBar
     private lateinit var moviesViewModel: MoviesViewModel
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater,container: ViewGroup?,savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_movies, container, false)
-        val recyclerView=view.findViewById<RecyclerView>(R.id.rv_movies)
+        return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val recyclerView = view.findViewById<View>(R.id.rv_movies) as RecyclerView
         adapter = MoviesAdapter()
         adapter.notifyDataSetChanged()
-        recyclerView.layoutManager = LinearLayoutManager(this.context)
-        recyclerView.adapter=adapter
-
+        recyclerView.layoutManager = LinearLayoutManager(context)
+        recyclerView.adapter = adapter
         progressBar = view.findViewById(R.id.progressBar)
 
-        moviesViewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(MoviesViewModel::class.java)
+        moviesViewModel = ViewModelProvider(this,ViewModelProvider.NewInstanceFactory()).get(MoviesViewModel::class.java)
         moviesViewModel.getMovies().observe(this, Observer { moviesItem ->
-            if(moviesItem != null){
+            if (moviesItem != null) {
                 adapter.setData(moviesItem)
             }
             showLoading(false)
         })
         moviesViewModel.setMovies()
-
         showLoading(true)
-        return view
     }
 
     private fun showLoading(state: Boolean) {

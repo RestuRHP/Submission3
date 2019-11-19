@@ -18,10 +18,10 @@
         android:id="@+id/rv_movies"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
-        android:background="@color/bg_color"
         tools:listitem="@layout/item_movie">
 
     </androidx.recyclerview.widget.RecyclerView>
+
+
 
 </RelativeLayout>

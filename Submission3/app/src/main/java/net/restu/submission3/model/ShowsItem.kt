@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class MoviesItem(
+data class ShowsItem(
     var title: String,
     var overview: String,
     var vote_average: String,
@@ -15,4 +15,4 @@ data class MoviesItem(
 ) : Parcelable
 
 @Parcelize
-class MovieItems : ArrayList<MoviesItem>(), Parcelable
+class ShowItems : ArrayList<ShowsItem>(), Parcelable

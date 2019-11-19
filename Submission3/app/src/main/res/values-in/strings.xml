@@ -1,0 +1,50 @@
+<resources>
+        
+    <string name="app_name"> Katalog Film 3 </string>
+        
+    <string name="tab_text_1"> Film </string>
+        
+    <string name="tab_text_2"> Acara Tv </string>
+        
+    <string name="content_tab_home"> Selamat Datang di Rumah </string>
+        
+    <string name="content_tab_tv_show"> TV SHOW </string>
+        
+    <string name="content_tab_text"> Ini adalah Tab </string>
+        
+    <string name="image_poster"> Poster Gambar </string>
+        
+    <string name="title_film"> Judul Film </string>
+        
+    <string name="genre"> Genre </string>
+        
+    <string name="star_rating"> Peringkat Bintang </string>
+        
+    <string name="storyline"> Storyline </string>
+        
+    <string name="time"> Waktu </string>
+        
+    <string name="rating"> Peringkat </string>
+        
+    <string name="language"> Bahasa </string>
+
+
+        
+    <string name="hello_blank_fragment"> Halo blank fragment </string>
+        
+    <string name="image_rating"> Peringkat Gambar </string>
+        
+    <string name="image_time"> Waktu Gambar </string>
+        
+    <string name="detail_film"> Film Detail </string>
+        
+    <string name="icon_star"> Ikon Bintang </string>
+        
+    <string name="years"> Tahun </string>
+        
+    <string name="image_white"> Gambar Hitam </string>
+        
+    <string name="overview"> Ikhtisar </string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+
+</resources>
